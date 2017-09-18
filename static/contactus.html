@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <title>Command Zone Games </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -12,40 +11,44 @@
 <body>
 <header class = "container">
   <div class="row">
-      <a href = "http://www.commandzonegames.com"><img src="images/CommandZoneLogo-xsm.jpg"/></a>
+      <a href = "index.html"><img src="images/CommandZoneLogo-xsm.jpg"/></a>
     <nav class ="col-sm-8 text-right">
       <p> Store </p>
       <a href = "contactus.html" style="text-decoration:none; color:black;" ><p> Contact us </p></a>
     </nav>
   </div>
 </header>
-<section class="jumbotron">
-  <div class = "container">
-    <div class= "row text-left">
-        <h2>More Games<br>More Magic<br>More Fun</h2>
-    </div>
-  </div>
+<section class = "container">
+    <br>
+    <h1> Location:</h1>
+    <h2> 61 Endicott street <br> Norwood MA, 02062
+    </h2>
+    <h1> Call Us: </h1>
+    <h2>(781) 352-2923</h2>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var CZG = {lat: -42°10'38.9"N , lng: 71°12'60.0"W};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: CZG
+        });
+        var marker = new google.maps.Marker({
+          position: CZG,
+          map: map
+        });
+      }
+    </script>
+    <iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAd5ELgUwGfltqdLnHP2GG5hypTLyEl5r8
+    &q=Space+Needle,Seattle+WA" allowfullscreen>
+    </iframe>
+
+
 </section>
-  <section class="container">
-    <div class="row">
-        <div class="col-sm-3">
-          <div id="boosters1"><p class ="Selling" align="center">Boosters
-          </p></div>
-      </div>
-          <div class="col-sm-3">
-          <div id="boosters2"><p class ="Selling" align="center">Singles
-          </p></div>
-      </div>
-          <div class="col-sm-3">
-          <div id="boosters3"><p class ="Selling" align="center">Boxes
-          </p></div>
-      </div>
-          <div class="col-sm-3">
-          <div id="boosters4"><p class ="Selling" align="center">Accessories
-          </p></div>
-      </div>
-      </div>
-  </section>
 
 </body>
  <footer class="container">

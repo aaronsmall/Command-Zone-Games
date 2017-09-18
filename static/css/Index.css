@@ -31,6 +31,10 @@ header p {
   font-family: "Verdana";
 }
 
+a {
+ text-decoration: none;
+}
+
 
 .jumbotron {
   display: flex;
@@ -62,6 +66,47 @@ section .row img {
 .col-md-6 {
   margin: 0 0 30px;
 }
+
+#boosters1{
+    height: 200px;
+    background-image: url("http://images6.fanpop.com/image/photos/40000000/Chandra-Torch-of-Defiance-magic-the-gathering-40043810-2560-1600.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+    }
+#boosters2{
+    height: 200px;
+    background-image: url("http://www.fgrecservices.com/wp-content/uploads/2017/02/WS207564.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+    }
+#boosters3{
+    height: 200px;
+    background-image: url("http://www.kitchentablemtg.com/forum/uploads/monthly_2016_10/medium.Saheeli_Rai_KLD_2560x1600_Wallpaper.jpg.664d7e2ab67e3981eb40fe4edbb07bd5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+    }
+#boosters4{
+    height: 200px;
+    background-image: url("http://images6.fanpop.com/image/photos/40000000/Nissa-Vital-Force-magic-the-gathering-40080594-2560-1600.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+    }
+
+.Selling{
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  justify-content: center;
+  position: absolute;
+  text-align:center;
+  padding-left: 10px;
+
+  }
+
 
 .btn.btn-primary {
   border-radius: 2px;
