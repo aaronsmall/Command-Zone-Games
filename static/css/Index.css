@@ -35,7 +35,6 @@ a {
  text-decoration: none;
 }
 
-
 .jumbotron {
   display: flex;
   align-items: center;
@@ -46,6 +45,12 @@ a {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+.controls {
+    margin-right: 2.5em;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
@@ -69,32 +74,52 @@ section .row img {
 
 #boosters1{
     height: 200px;
-    background-image: url("http://images6.fanpop.com/image/photos/40000000/Chandra-Torch-of-Defiance-magic-the-gathering-40043810-2560-1600.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%
-    }
+    background: url("../../static/images/Chandra.jpg") no-repeat 50% 50%;
+}
 #boosters2{
     height: 200px;
-    background-image: url("http://www.fgrecservices.com/wp-content/uploads/2017/02/WS207564.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%
-    }
+    background: url("../../static/images/Dovin.jpg") no-repeat 50% 50%;
+}
 #boosters3{
     height: 200px;
-    background-image: url("http://www.kitchentablemtg.com/forum/uploads/monthly_2016_10/medium.Saheeli_Rai_KLD_2560x1600_Wallpaper.jpg.664d7e2ab67e3981eb40fe4edbb07bd5.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%
-    }
+    background: url("../../static/images/Saheeli.jpg") no-repeat 50% 50%;
+}
 #boosters4{
     height: 200px;
-    background-image: url("http://images6.fanpop.com/image/photos/40000000/Nissa-Vital-Force-magic-the-gathering-40080594-2560-1600.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%
-    }
+    background: url("../../static/images/Nissa.jpg") no-repeat 50% 50%;
+}
+
+.btn-1:hover {
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.btn {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 auto 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+}
+
 
 .Selling{
   font-size: 30px;
@@ -104,9 +129,7 @@ section .row img {
   position: absolute;
   text-align:center;
   padding-left: 10px;
-
   }
-
 
 .btn.btn-primary {
   border-radius: 2px;
