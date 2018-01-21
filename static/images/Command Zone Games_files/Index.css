@@ -63,29 +63,36 @@ a {
   color: #fff;
 }
 
+section .row img {
+  margin: auto;
+}
+
 .col-md-6 {
   margin: 0 0 30px;
 }
 
+.col-sm-3{ background-size: contain}
+
 #boosters1{
     height: 200px;
-    background: url("../../static/images/Chandra.jpg") no-repeat center;
-    background-size:cover;
+    background-size: contain;
+    background: url("../../static/images/Chandra.jpg") no-repeat 50% 50%;
+
 }
 #boosters2{
     height: 200px;
-    background: url("../../static/images/Dovin.jpg")  no-repeat center;
-    background-size:cover;
+    background-size: cover;
+    background: url("../../static/images/Dovin.jpg") no-repeat 50% 50%;
 }
 #boosters3{
     height: 200px;
-    background: url("../../static/images/Saheeli.jpg")  no-repeat center;
-    background-size:cover;
+    background-size: cover;
+    background: url("../../static/images/Saheeli.jpg") no-repeat 50% 50%;
 }
 #boosters4{
     height: 200px;
-    background: url("../../static/images/Nissa.jpg")  no-repeat center;
-    background-size:cover;
+    background-size: cover;
+    background: url("../../static/images/Nissa.jpg") no-repeat 50% 50%;
 }
 
 .btn-1:hover {
